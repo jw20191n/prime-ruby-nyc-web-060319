@@ -5,7 +5,15 @@ def prime?(int)
   elsif
   
     for i in 2...int do
-      if i == int
+      
+      if int == 2
+        return true
+      end  
+      
+      if int % i == 0
+        return false
+      end  
+      
     end
     
   end

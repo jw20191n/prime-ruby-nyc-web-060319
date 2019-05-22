@@ -4,7 +4,7 @@ def prime?(int)
     return false
   elsif 
     for i in 2...int
-      if int % i == 0 
+      if (int % i) == 0 
         return false
       end
     end

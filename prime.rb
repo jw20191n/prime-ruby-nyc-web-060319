@@ -4,7 +4,12 @@ def prime?(int)
     return false
   elsif 
     for i in 2...int
-    
+      if int % i == 0 
+        return false
+        
+    end
+  else
+    return true
   end
   
 end

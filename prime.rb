@@ -2,6 +2,6 @@ def prime?(int)
   if int <= 1
     return false
   elsif
-    for 2..int
+    for i in 2..int do
   end
 end

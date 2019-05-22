@@ -3,7 +3,7 @@ def prime?(int)
     return false
   else
     for i in 2..int do
-      if i % 
+      if int % i == 0 
     end  
   end
 end

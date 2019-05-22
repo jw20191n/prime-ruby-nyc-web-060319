@@ -6,10 +6,6 @@ def prime?(int)
   
     for i in 2..int do
       
-      if int == 2
-        return true
-      end  
-      
       if int % i == 0
         return false
       end  

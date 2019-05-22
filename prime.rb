@@ -2,7 +2,8 @@ def prime?(int)
   
   if int <= 1
     return false
-  elsif int == 2   
+  elsif 
+    for i in 2...int
     
   end
   
